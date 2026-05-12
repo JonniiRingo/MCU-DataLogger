@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -414,16 +414,39 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "top_level_sheets": [],
-    "used_designators": "",
+    "top_level_sheets": [
+      {
+        "filename": "MCU Datalogger.kicad_sch",
+        "name": "Root",
+        "uuid": "82352dda-4ca1-40c9-b7a4-aaa22a39ffc1"
+      }
+    ],
+    "used_designators": "J1-4,H1-4,C1-5,D1-2,BT1,R1-7,Y1-2,U1-4",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "82352dda-4ca1-40c9-b7a4-aaa22a39ffc1",
+      "Root"
+    ],
+    [
+      "54ef1982-1ff8-4cfa-b34b-d11f1fea3d47",
+      "Connectors"
+    ]
+  ],
   "text_variables": {
     "project_name": "MCU Datalogger with memory & clock"
   },
