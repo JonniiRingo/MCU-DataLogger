@@ -1044,7 +1044,7 @@
 		)
 		(uuid "22a38d66-60db-487f-9a7b-92a0b52da7db")
 	)
-	(hierarchical_label "VCC"
+	(hierarchical_label "Vcc"
 		(shape passive)
 		(at 119.38 118.11 0)
 		(effects

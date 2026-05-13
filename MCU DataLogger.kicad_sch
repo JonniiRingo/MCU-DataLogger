@@ -3920,7 +3920,7 @@
 		(uuid "fc98d123-eaeb-4181-bd35-3ddccb6a0476")
 	)
 	(label "RESET"
-		(at 127 149.86 180)
+		(at 127 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8129,7 +8129,7 @@
 			)
 		)
 		(pin "RESET" passive
-			(at 127 149.86 180)
+			(at 127 147.32 180)
 			(uuid "8533c728-139a-4d4b-a5c8-ee14db68d9dd")
 			(effects
 				(font
@@ -8181,16 +8181,6 @@
 		(pin "Vcc" passive
 			(at 127 95.25 180)
 			(uuid "87d52fb3-84cc-42fd-9d99-e1a53bfa403f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VCC" passive
-			(at 127 144.78 180)
-			(uuid "8ba984d5-4c33-4bac-bec0-a2d2ce11cea6")
 			(effects
 				(font
 					(size 1.27 1.27)
