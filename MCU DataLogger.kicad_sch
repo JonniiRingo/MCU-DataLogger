@@ -4577,7 +4577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "134c3845-2bbf-45d4-9b9e-b27186936f15")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 174.9425 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4650,7 +4650,7 @@
 		(instances
 			(project "MCU Datalogger"
 				(path "/82352dda-4ca1-40c9-b7a4-aaa22a39ffc1"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4914,7 +4914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d0fcdb6-0163-47fb-9c1f-08962fb68685")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 62.23 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5080,7 +5080,7 @@
 		(instances
 			(project "MCU Datalogger"
 				(path "/82352dda-4ca1-40c9-b7a4-aaa22a39ffc1"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5707,7 +5707,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f7a80e8-394b-4cb1-9a41-243bb8e5e680")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 68.326 140.208 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5789,7 +5789,7 @@
 		(instances
 			(project "MCU Datalogger"
 				(path "/82352dda-4ca1-40c9-b7a4-aaa22a39ffc1"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6693,7 +6693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9880396e-15b8-4494-aeda-9234519d5ba9")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 240.03 61.2774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6768,7 +6768,7 @@
 		(instances
 			(project "MCU Datalogger"
 				(path "/82352dda-4ca1-40c9-b7a4-aaa22a39ffc1"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
