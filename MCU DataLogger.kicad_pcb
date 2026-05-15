@@ -7102,6 +7102,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Rx"
+		(at 137.9 90.6 0)
+		(layer "F.SilkS")
+		(uuid "e89b146b-2850-4cc7-a455-6b2c18d3cda4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "TX"
 		(at 140.4 90.6 0)
 		(layer "F.SilkS")
