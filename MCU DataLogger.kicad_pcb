@@ -153,7 +153,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../MCU DataLogger/MCU_DataLogger_Gerbers/")
+			(outputdirectory "../MCU DataLogger/4LayerMCUGerberFiles/")
 		)
 	)
 	(property "project_name" "MCU Datalogger with memory & clock")
@@ -6949,8 +6949,8 @@
 		)
 	)
 	(gr_rect
-		(start 135.9662 84.582)
-		(end 143.383 89.3572)
+		(start 139.2936 81.2546)
+		(end 144.0688 88.6714)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -6971,7 +6971,7 @@
 		(uuid "23cef6dd-f02b-42e6-a491-6f488c1c7c19")
 	)
 	(gr_text "    ICSP\nMISO | VCC\nSCK  | MOSI\nRESET| GND"
-		(at 136.2 89 0)
+		(at 143.7 88.5 90)
 		(layer "F.SilkS")
 		(uuid "61153dbe-48ee-4f8f-98d5-1dde6ca50b16")
 		(effects
@@ -7257,8 +7257,8 @@
 	)
 	(table
 		(column_count 4)
-		(uuid "fca83924-3ed4-4106-84c7-999d2ba4f576")
-		(layer "Dwgs.User")
+		(uuid "78487ff1-bcc7-4b07-9aa7-9663c31c8341")
+		(layer "F.SilkS")
 		(border
 			(external no)
 			(header no)
@@ -7271,12 +7271,12 @@
 		(row_heights 4.405 4.204748 3.705 4.274527 4.197388 4.197388 4.205)
 		(cells
 			(table_cell "BOARD CHARACTERISTICS"
-				(start 70.85 28.55)
-				(end 189.443316 32.955)
+				(start 65.85 27.925)
+				(end 184.443316 32.33)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 4 1)
-				(layer "Dwgs.User")
-				(uuid "0a04dd57-7484-47e4-a079-8115757caf90")
+				(layer "F.SilkS")
+				(uuid "c31b82ed-202d-4884-96e3-945635c18a0e")
 				(effects
 					(font
 						(size 2 2)
@@ -7286,12 +7286,12 @@
 				)
 			)
 			(table_cell ""
-				(start 110.828931 28.55)
-				(end 145.750216 32.955)
+				(start 105.828931 27.925)
+				(end 140.750216 32.33)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 0 1)
-				(layer "Dwgs.User")
-				(uuid "d77786ef-423e-4375-a51a-38f55f5818c7")
+				(layer "F.SilkS")
+				(uuid "d8e20932-f86d-441b-9e58-da18a2ead26b")
 				(effects
 					(font
 						(size 2 2)
@@ -7301,12 +7301,12 @@
 				)
 			)
 			(table_cell ""
-				(start 145.750216 28.55)
-				(end 173.878675 32.955)
+				(start 140.750216 27.925)
+				(end 168.878675 32.33)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 0 1)
-				(layer "Dwgs.User")
-				(uuid "34b98909-08e7-4035-9f0a-46cdb055901a")
+				(layer "F.SilkS")
+				(uuid "84b02b3f-b07c-4ec6-af65-736f8b7ffe03")
 				(effects
 					(font
 						(size 2 2)
@@ -7316,12 +7316,12 @@
 				)
 			)
 			(table_cell ""
-				(start 173.878675 28.55)
-				(end 189.443316 32.955)
+				(start 168.878675 27.925)
+				(end 184.443316 32.33)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 0 1)
-				(layer "Dwgs.User")
-				(uuid "8b0fa9b6-38bc-41b5-bc66-8c9c8b6ad588")
+				(layer "F.SilkS")
+				(uuid "508c4985-6e12-42d9-8103-290254fc00be")
 				(effects
 					(font
 						(size 2 2)
@@ -7331,12 +7331,12 @@
 				)
 			)
 			(table_cell "Copper layer count: "
-				(start 70.85 32.955)
-				(end 110.828931 37.159748)
+				(start 65.85 32.33)
+				(end 105.828931 36.534748)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "85930de8-d4bf-43ab-9f92-2ec2454fb3bd")
+				(layer "F.SilkS")
+				(uuid "e3c0099c-f0fd-4324-b341-0178e494d901")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7345,13 +7345,13 @@
 					(justify left)
 				)
 			)
-			(table_cell "2"
-				(start 110.828931 32.955)
-				(end 145.750216 37.159748)
+			(table_cell "4"
+				(start 105.828931 32.33)
+				(end 140.750216 36.534748)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "d0435f73-ad41-4c5a-9b8d-b5d9444e5edb")
+				(layer "F.SilkS")
+				(uuid "bfb65b99-d302-4ec6-91b6-c57e388f309a")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7361,12 +7361,12 @@
 				)
 			)
 			(table_cell "Board thickness: "
-				(start 145.750216 32.955)
-				(end 173.878675 37.159748)
+				(start 140.750216 32.33)
+				(end 168.878675 36.534748)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "dfc2104f-facd-4dc8-8467-0d98dbcc4670")
+				(layer "F.SilkS")
+				(uuid "e3ef95ce-955d-432a-a254-70cef27f6537")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7376,12 +7376,12 @@
 				)
 			)
 			(table_cell "1.6000 mm"
-				(start 173.878675 32.955)
-				(end 189.443316 37.159748)
+				(start 168.878675 32.33)
+				(end 184.443316 36.534748)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "abb9cad4-41f7-4034-92c5-64cc6e0673a3")
+				(layer "F.SilkS")
+				(uuid "c8f8fed2-d90b-4ca2-80db-5d5e1c3e51f2")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7391,12 +7391,12 @@
 				)
 			)
 			(table_cell "Board overall dimensions: "
-				(start 70.85 37.159748)
-				(end 110.828931 40.864748)
+				(start 65.85 36.534748)
+				(end 105.828931 40.239748)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "1ee22364-9097-4b12-a314-d82d5465d5c7")
+				(layer "F.SilkS")
+				(uuid "7fd3f72c-aaa9-41c0-a3a2-f6d9cb33d16f")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7406,12 +7406,12 @@
 				)
 			)
 			(table_cell "50.9778 mm x 35.0012 mm"
-				(start 110.828931 37.159748)
-				(end 145.750216 40.864748)
+				(start 105.828931 36.534748)
+				(end 140.750216 40.239748)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "a758106e-ca28-45aa-943d-d69aa09df029")
+				(layer "F.SilkS")
+				(uuid "c5ea4d88-de63-4113-864d-bb74289e7630")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7421,12 +7421,12 @@
 				)
 			)
 			(table_cell ""
-				(start 145.750216 37.159748)
-				(end 173.878675 40.864748)
+				(start 140.750216 36.534748)
+				(end 168.878675 40.239748)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "6b99e502-a96a-4fc1-af5e-87f7ac9bf9c0")
+				(layer "F.SilkS")
+				(uuid "16bbde6b-f537-4b3f-a545-ccbd0e2761b4")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7436,12 +7436,12 @@
 				)
 			)
 			(table_cell ""
-				(start 173.878675 37.159748)
-				(end 189.443316 40.864748)
+				(start 168.878675 36.534748)
+				(end 184.443316 40.239748)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "4003caed-5415-49a4-96ab-78742aa3ff0d")
+				(layer "F.SilkS")
+				(uuid "1e47b893-549a-4281-97bf-6f96afa4f83e")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7451,12 +7451,12 @@
 				)
 			)
 			(table_cell "Min track/spacing: "
-				(start 70.85 40.864748)
-				(end 110.828931 45.139275)
+				(start 65.85 40.239748)
+				(end 105.828931 44.514275)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "6f63f749-6e04-4e98-9545-46f46d89197e")
+				(layer "F.SilkS")
+				(uuid "4fd84a3b-b9c9-41e8-846c-8e2f2883db60")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7466,12 +7466,12 @@
 				)
 			)
 			(table_cell "0.2000 mm / 0.2000 mm"
-				(start 110.828931 40.864748)
-				(end 145.750216 45.139275)
+				(start 105.828931 40.239748)
+				(end 140.750216 44.514275)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "d0fc54b5-ea09-43d7-b030-0039fbcb0a0f")
+				(layer "F.SilkS")
+				(uuid "ab1c6e3e-1eb5-4a86-ad82-89588b8ef40e")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7481,12 +7481,12 @@
 				)
 			)
 			(table_cell "Min hole diameter: "
-				(start 145.750216 40.864748)
-				(end 173.878675 45.139275)
+				(start 140.750216 40.239748)
+				(end 168.878675 44.514275)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "11a79b98-41b0-4c18-a702-7d5649dabaeb")
+				(layer "F.SilkS")
+				(uuid "ddaa953d-2199-43c2-b3e4-5618d9fbb1f8")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7496,12 +7496,12 @@
 				)
 			)
 			(table_cell "0.3000 mm"
-				(start 173.878675 40.864748)
-				(end 189.443316 45.139275)
+				(start 168.878675 40.239748)
+				(end 184.443316 44.514275)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "542aef97-03e2-4f05-8266-762f170b6539")
+				(layer "F.SilkS")
+				(uuid "d4c5a24c-b386-4321-ac4c-9fdfd06d1cec")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7511,12 +7511,12 @@
 				)
 			)
 			(table_cell "Copper finish: "
-				(start 70.85 45.139275)
-				(end 110.828931 49.336663)
+				(start 65.85 44.514275)
+				(end 105.828931 48.711663)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "5ee0c9d6-9560-42d0-8e7b-ad29b2d47a84")
+				(layer "F.SilkS")
+				(uuid "7a917b0c-c1c1-4cec-bbb3-8faf2bb6d8a6")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7526,12 +7526,12 @@
 				)
 			)
 			(table_cell "None"
-				(start 110.828931 45.139275)
-				(end 145.750216 49.336663)
+				(start 105.828931 44.514275)
+				(end 140.750216 48.711663)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "9239f0fa-9fcd-479a-9a42-8e19997f7146")
+				(layer "F.SilkS")
+				(uuid "f4ba11a0-ea25-4d97-9c1b-05532a42154a")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7541,12 +7541,12 @@
 				)
 			)
 			(table_cell "Impedance control: "
-				(start 145.750216 45.139275)
-				(end 173.878675 49.336663)
+				(start 140.750216 44.514275)
+				(end 168.878675 48.711663)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "9bd86e2d-5278-44bb-82fc-72fd57c8e1ff")
+				(layer "F.SilkS")
+				(uuid "a67a8dcc-a7e4-45c9-877b-f08a0b0640eb")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7556,12 +7556,12 @@
 				)
 			)
 			(table_cell "No"
-				(start 173.878675 45.139275)
-				(end 189.443316 49.336663)
+				(start 168.878675 44.514275)
+				(end 184.443316 48.711663)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "e2f6f2da-75de-43c1-a8bc-4fda7db36d89")
+				(layer "F.SilkS")
+				(uuid "e68fd7e8-67da-49cb-b7ac-ebc90c5fcbec")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7571,12 +7571,12 @@
 				)
 			)
 			(table_cell "Castellated pads: "
-				(start 70.85 49.336663)
-				(end 110.828931 53.534051)
+				(start 65.85 48.711663)
+				(end 105.828931 52.909051)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "3e768c8a-bda3-42ae-9646-aadc95959b83")
+				(layer "F.SilkS")
+				(uuid "947c5648-1780-42d1-85b0-49239ff0b393")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7586,12 +7586,12 @@
 				)
 			)
 			(table_cell "No"
-				(start 110.828931 49.336663)
-				(end 145.750216 53.534051)
+				(start 105.828931 48.711663)
+				(end 140.750216 52.909051)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "614a2785-92a3-437b-afad-a597d65e88cb")
+				(layer "F.SilkS")
+				(uuid "7915a66b-25bd-47ff-9591-231831834ed3")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7601,12 +7601,12 @@
 				)
 			)
 			(table_cell "Press-fit pads: "
-				(start 145.750216 49.336663)
-				(end 173.878675 53.534051)
+				(start 140.750216 48.711663)
+				(end 168.878675 52.909051)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "61654bf4-8e12-4ab8-a011-06a5fe22a5c9")
+				(layer "F.SilkS")
+				(uuid "3d7dc603-7488-4be1-bac0-d52484d21750")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7616,12 +7616,12 @@
 				)
 			)
 			(table_cell "No"
-				(start 173.878675 49.336663)
-				(end 189.443316 53.534051)
+				(start 168.878675 48.711663)
+				(end 184.443316 52.909051)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "a6e48f42-f40d-4af5-ab2f-93365c46f7aa")
+				(layer "F.SilkS")
+				(uuid "67316f74-078d-48b5-8004-2876effba0d5")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7631,12 +7631,12 @@
 				)
 			)
 			(table_cell "Plated board edge: "
-				(start 70.85 53.534051)
-				(end 110.828931 57.739051)
+				(start 65.85 52.909051)
+				(end 105.828931 57.114051)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "221d38ab-d94b-4fbf-b4c5-e86e5521145a")
+				(layer "F.SilkS")
+				(uuid "e3049541-3cec-40c0-9e3a-94d7d0483038")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7646,12 +7646,12 @@
 				)
 			)
 			(table_cell "No"
-				(start 110.828931 53.534051)
-				(end 145.750216 57.739051)
+				(start 105.828931 52.909051)
+				(end 140.750216 57.114051)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "d62a3bea-8a63-47d5-8f5d-7d589c8a8ca3")
+				(layer "F.SilkS")
+				(uuid "8c3b088a-d0b6-454c-b164-5b0d35c0fe0f")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7661,12 +7661,12 @@
 				)
 			)
 			(table_cell "Edge card connectors: "
-				(start 145.750216 53.534051)
-				(end 173.878675 57.739051)
+				(start 140.750216 52.909051)
+				(end 168.878675 57.114051)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "6e5bd487-4b9f-421f-952a-5f616b5a08a9")
+				(layer "F.SilkS")
+				(uuid "77fbfd3f-8aa5-44fe-b036-e485e77afca7")
 				(effects
 					(font
 						(size 1.5 1.5)
@@ -7676,12 +7676,12 @@
 				)
 			)
 			(table_cell "No"
-				(start 173.878675 53.534051)
-				(end 189.443316 57.739051)
+				(start 168.878675 52.909051)
+				(end 184.443316 57.114051)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "Dwgs.User")
-				(uuid "cc92e23e-d7ea-4c9c-b8fb-7c728654a8d5")
+				(layer "F.SilkS")
+				(uuid "1431c78c-580f-4984-ac60-902765b00415")
 				(effects
 					(font
 						(size 1.5 1.5)
