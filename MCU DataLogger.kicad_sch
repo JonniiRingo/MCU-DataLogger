@@ -4247,6 +4247,16 @@
 		)
 		(uuid "80b6f271-2f5d-421c-a65a-8be58b6b6e51")
 	)
+	(label "ABC123"
+		(at 172.72 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "883448fa-0df9-406f-b52c-d091c3dee85d")
+	)
 	(label "TX"
 		(at 158.75 124.46 180)
 		(effects
