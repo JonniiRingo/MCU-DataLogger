@@ -537,7 +537,7 @@
       "netlist": "",
       "plot": "../MCU DataLogger/4LayerMCUGerberFiles/",
       "specctra_dsn": "",
-      "vrml": ""
+      "vrml": "../../Finished Boards/MCU Datalogger.wrl"
     },
     "page_layout_descr_file": ""
   },
